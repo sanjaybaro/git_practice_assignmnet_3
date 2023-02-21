@@ -14,10 +14,10 @@ count=false;
 }
 if(count){
 
-Print("Prime Number");
+console.log("Prime Number");
 
 }else{
 
-print("Not a prime number");
+console.log("Not a prime number");
 
 }
