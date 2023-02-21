@@ -1,20 +1,6 @@
-let str="mom";
-
-let N=str.length;
-
-let bag="";
-
-for(let i=N-1;i>=0;i--){
-
-bag=bag+str[i];
-
+let pal="madgam";
+let res="";
+for(let i=pal.length-1; i>=0; i--){
+res+=pal[i];
 }
-if(bag==str){
-
-console.log("Yes");
-
-}else{
-
-console.log("No");
-
-}
+pal==res?console.log("True"):console.log("False")
